@@ -1,29 +1,31 @@
-# Гендерные квоты и человеческий капитал
+# Gender Quotas and Human Capital
 
-Код и данные моего диссертационного исследования.
+Code and data from my dissertation research.
 
-Изучаю, как введение гендерных квот связано с долей женщин в парламенте и показателями человеческого капитала: образованием, здоровьем и участием женщин в экономике.
+I study how the introduction of gender quotas relates to women's representation in parliament and indicators of human capital, including education, health, and women's participation in the economy.
 
-В основе работы — международные панельные данные и база гендерных квот QAROT. В анализе сравниваю динамику показателей до и после введения квот, учитывая различия между странами и общие изменения во времени.
+The project uses cross-country panel data and the QAROT gender-quota database. The analysis compares outcomes before and after quota implementation, accounting for differences between countries and common changes over time.
 
-Самый устойчивый результат в проверенных спецификациях — рост представительства женщин после введения квот. По человеческому капиталу эти проверки не дают устойчивого статистического подтверждения улучшения.
+The most consistent finding across the checked specifications is an increase in women's parliamentary representation after quota implementation. The same checks do not provide robust statistical evidence of improvements in human capital.
 
-![Доля женщин в парламенте до и после введения квоты](results/dissertation/main/PARL.svg)
+![Women's parliamentary representation before and after quota implementation](results/dissertation/main/PARL.svg)
 
-## Что посмотреть
+## Explore the project
 
-- [Основное исследование](dissertation/README.md) — данные, метод, результаты и ограничения.
-- [Проверка расчётов](dissertation/VALIDATION.md) — что воспроизвелось и где текст диссертации расходится с кодом.
-- [Другие исследования](related-studies/README.md) — материалы по политическому представительству, институтам и милитаризации.
-- [Источники данных](data/README.md).
+The detailed research notes linked below are currently in Russian.
 
-## Повторить анализ
+- [Main study](dissertation/README.md) — data, methods, results, and limitations.
+- [Validation report](dissertation/VALIDATION.md) — what was reproduced and where the dissertation text and code differ.
+- [Related studies](related-studies/README.md) — earlier work on political representation, institutions, and militarisation.
+- [Data sources](data/README.md).
 
-Проверено на Python 3.11. Из корня репозитория:
+## Reproduce the analysis
+
+Tested with Python 3.11. From the repository root:
 
 ```bash
 python -m pip install -r requirements.txt
 python dissertation/run_analysis.py --spec main
 ```
 
-Основной расчёт использует данные за 1997–2015 годы. Результаты сохраняются в `results/dissertation/main/`. Старые расчёты и новые проверки разделены, их результаты не перезаписывают друг друга.
+The main specification uses data for 1997–2015. Results are saved to `results/dissertation/main/`. Historical estimates and the new checks are stored separately so that their outputs do not overwrite each other.
