@@ -1,0 +1,95 @@
+{
+  "data/processed/country_panel.csv": {
+    "source": "data/final_data/final_data.csv",
+    "sha256": "71d616e03b04c88ac39f507fd7c43325a694eb5097eed5e9f9767038e91418b4"
+  },
+  "data/raw/qarot.csv": {
+    "source": "data/qarot_data/qarot_data.csv",
+    "sha256": "882b30f60d4770422bd778b39ebf2d0b5a309ba482a445d53ae1bbaec6c8517e"
+  },
+  "data/processed/qarot_minimal.csv": {
+    "source": "data/qarot_data/qarot_panel_min.csv",
+    "sha256": "e33b2b6db99e07e09da911b81180c68081f2e1dbdaf581dfa2bec743aab2a73b"
+  },
+  "data/raw/pwt_human_capital.csv": {
+    "source": "data/raw_data/Human Capital Index PWT.csv",
+    "sha256": "96f4fcbd3cad0455226f7cfce8fe858e2212b6a3a3b14e4d334a52a1bc4e041b"
+  },
+  "data/preparation_history.ipynb": {
+    "source": "paper_main/phd_data_prep.ipynb",
+    "transform": "outputs and execution state removed; navigation notice added; original cell source preserved"
+  },
+  "related-studies/militarisation/research.ipynb": {
+    "source": "paper_main/phd_research.ipynb",
+    "transform": "outputs and execution state removed; navigation notice added; original cell source preserved"
+  },
+  "related-studies/institutions/research.ipynb": {
+    "source": "paper1/phd_research_paper1.ipynb",
+    "transform": "outputs and execution state removed; navigation notice added; original cell source preserved"
+  },
+  "related-studies/corruption/research.ipynb": {
+    "source": "paper2/phd_research_paper2.ipynb",
+    "transform": "outputs and execution state removed; navigation notice added; original cell source preserved"
+  },
+  "related-studies/regional-comparisons/research.ipynb": {
+    "source": "paper3_competition/phd_research_paper3_competition.ipynb",
+    "transform": "outputs and execution state removed; navigation notice added; original cell source preserved"
+  },
+  "dissertation/exploration.ipynb": {
+    "source": "paper4_parl_vs_hci/phd_research_paper4_parl_vs_hci.ipynb",
+    "transform": "outputs and execution state removed; navigation notice added; original cell source preserved"
+  },
+  "results/original-snapshots/eventstudy_point_PARL_w5_12.csv": {
+    "source": "data/eventstudy_outputs_panelols/eventstudy_point_PARL_w5_12.csv",
+    "sha256": "b4820f1b1eb37a77c307ec1bca406e267d300788cab5359991fa44cd07fc8670"
+  },
+  "results/original-snapshots/eventstudy_point_Human_Capital_w5_12.csv": {
+    "source": "data/eventstudy_outputs_panelols/eventstudy_point_Human_Capital_w5_12.csv",
+    "sha256": "dd6a543fb06b2a5874abd0d4b95970c9ba1ed19853ea15684bb062ec2fbafc19"
+  },
+  "results/original-snapshots/eventstudy_point_Life_Expectancy_w5_12.csv": {
+    "source": "data/eventstudy_outputs_panelols/eventstudy_point_Life_Expectancy_w5_12.csv",
+    "sha256": "d098b10b1972d2f927247f715ddaa933f48cd537432b55f7a6fe6a1c994501e0"
+  },
+  "results/original-snapshots/eventstudy_point_edu_index_z_w5_12.csv": {
+    "source": "data/eventstudy_outputs_panelols/eventstudy_point_edu_index_z_w5_12.csv",
+    "sha256": "ec2a3e9abb7b6dbf11ffbf6c15b4a72545cbcff15477d5ac19ef298f18b02111"
+  },
+  "results/original-snapshots/eventstudy_point_health_index_z_w5_12.csv": {
+    "source": "data/eventstudy_outputs_panelols/eventstudy_point_health_index_z_w5_12.csv",
+    "sha256": "682f4b80dc2eb0c62c8c6cf82487441cf0e921a850937fc3cad3a32ec8e9d337"
+  },
+  "results/original-snapshots/eventstudy_point_composite_hc_z_w5_12.csv": {
+    "source": "data/eventstudy_outputs_panelols/eventstudy_point_composite_hc_z_w5_12.csv",
+    "sha256": "cb428710b58d984ee4724391625f67fefbabcf25fa6b755fda86d982e61ad208"
+  },
+  "dissertation/reproduction/cell_76.py": {
+    "source": "paper4_parl_vs_hci/phd_research_paper4_parl_vs_hci.ipynb",
+    "cell_zero_based": 76,
+    "transform": "AST extraction; data/output paths and main guard only"
+  },
+  "results/descriptive/hc_region_trends_1997_2015.svg": {
+    "source": "data/processed/country_panel.csv",
+    "transform": "recomputed by dissertation/describe.py using 1997-2015 and >=3 countries per region"
+  },
+  "results/descriptive/parl_region_trends_1997_2015.svg": {
+    "source": "data/processed/country_panel.csv",
+    "transform": "recomputed by dissertation/describe.py using 1997-2015 and >=3 countries per region"
+  },
+  "results/descriptive/hc_region_boxplot_country_means.svg": {
+    "source": "data/processed/country_panel.csv",
+    "transform": "recomputed by dissertation/describe.py using 1997-2015 and >=3 countries per region"
+  },
+  "results/descriptive/hc_top15_countries_mean_1997_2015.svg": {
+    "source": "data/processed/country_panel.csv",
+    "transform": "recomputed by dissertation/describe.py using 1997-2015 and >=3 countries per region"
+  },
+  "results/descriptive/parl_region_boxplot_country_means.svg": {
+    "source": "data/processed/country_panel.csv",
+    "transform": "recomputed by dissertation/describe.py using 1997-2015 and >=3 countries per region"
+  },
+  "results/descriptive/parl_top15_countries_mean_1997_2015.svg": {
+    "source": "data/processed/country_panel.csv",
+    "transform": "recomputed by dissertation/describe.py using 1997-2015 and >=3 countries per region"
+  }
+}

@@ -1,0 +1,40 @@
+                          PanelOLS Estimation Summary                           
+================================================================================
+Dep. Variable:        Life_Expectancy   R-squared:                        0.0028
+Estimator:                   PanelOLS   R-squared (Between):           7.672e-05
+No. Observations:                9383   R-squared (Within):               0.0103
+Date:                Sun, Nov 08 2026   R-squared (Overall):            8.21e-05
+Time:                        13:35:27   Log-likelihood                 -1.44e+04
+Cov. Estimator:             Clustered                                           
+                                        F-statistic:                      2.3627
+Entities:                         853   P-value                           0.0087
+Avg Obs:                       11.000   Distribution:                 F(10,8433)
+Min Obs:                       11.000                                           
+Max Obs:                       11.000   F-statistic (robust):             0.8260
+                                        P-value                           0.6035
+Time periods:                      88   Distribution:                 F(10,8433)
+Avg Obs:                       106.62                                           
+Min Obs:                       93.000                                           
+Max Obs:                       117.00                                           
+                                                                                
+                             Parameter Estimates                              
+==============================================================================
+            Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+------------------------------------------------------------------------------
+event_m5      -0.4233     0.4782    -0.8853     0.3760     -1.3607      0.5141
+event_m4      -0.3122     0.3517    -0.8879     0.3746     -1.0016      0.3771
+event_m3      -0.2132     0.2417    -0.8822     0.3777     -0.6869      0.2605
+event_m2      -0.1752     0.1588    -1.1032     0.2700     -0.4865      0.1361
+event_p0       0.0357     0.1467     0.2438     0.8074     -0.2517      0.3232
+event_p1       0.1009     0.2305     0.4378     0.6615     -0.3510      0.5528
+event_p2       0.3171     0.3255     0.9743     0.3299     -0.3209      0.9551
+event_p3       0.4553     0.3834     1.1873     0.2351     -0.2964      1.2069
+event_p4       0.5924     0.4518     1.3113     0.1898     -0.2932      1.4781
+event_p5       0.7173     0.5223     1.3735     0.1696     -0.3065      1.7411
+==============================================================================
+
+F-test for Poolability: 726.47
+P-value: 0.0000
+Distribution: F(939,8433)
+
+Included effects: Entity, Time

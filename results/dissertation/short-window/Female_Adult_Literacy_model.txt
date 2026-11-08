@@ -1,0 +1,40 @@
+                            PanelOLS Estimation Summary                            
+===================================================================================
+Dep. Variable:     Female_Adult_Literacy   R-squared:                        0.0294
+Estimator:                      PanelOLS   R-squared (Between):             -0.0002
+No. Observations:                    509   R-squared (Within):              -0.0019
+Date:                   Sun, Nov 08 2026   R-squared (Overall):             -0.0016
+Time:                           13:35:27   Log-likelihood                   -1069.0
+Cov. Estimator:                Clustered                                           
+                                           F-statistic:                      0.4449
+Entities:                            317   P-value                           0.9219
+Avg Obs:                          1.6057   Distribution:                  F(10,147)
+Min Obs:                          1.0000                                           
+Max Obs:                         10.0000   F-statistic (robust):             35.201
+                                           P-value                           0.0000
+Time periods:                         36   Distribution:                  F(10,147)
+Avg Obs:                          14.139                                           
+Min Obs:                          7.0000                                           
+Max Obs:                          23.000                                           
+                                                                                   
+                             Parameter Estimates                              
+==============================================================================
+            Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+------------------------------------------------------------------------------
+event_m5       11.017     2.3724     4.6438     0.0000      6.3285      15.705
+event_m4       0.2188     2.7111     0.0807     0.9358     -5.1389      5.5766
+event_m3      -0.3889     3.3105    -0.1175     0.9066     -6.9312      6.1533
+event_m2      -1.3806     3.2359    -0.4266     0.6703     -7.7755      5.0143
+event_p0      -1.6705     3.4265    -0.4875     0.6266     -8.4420      5.1010
+event_p1       0.2258     3.3376     0.0676     0.9462     -6.3700      6.8215
+event_p2      -1.3795     2.9115    -0.4738     0.6363     -7.1334      4.3744
+event_p3      -2.6499     2.3273    -1.1386     0.2567     -7.2491      1.9494
+event_p4      -1.6040     3.1660    -0.5066     0.6132     -7.8608      4.6528
+event_p5      -1.8364     3.0962    -0.5931     0.5540     -7.9552      4.2824
+==============================================================================
+
+F-test for Poolability: 71.055
+P-value: 0.0000
+Distribution: F(351,147)
+
+Included effects: Entity, Time

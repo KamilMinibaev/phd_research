@@ -1,2 +1,9 @@
-/archieve/Master_Thesis_UPD.pdf
-/Название статьи.docx
+.DS_Store
+.idea/
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.ipynb_checkpoints/
+results/reproduction/merged/
+*.png

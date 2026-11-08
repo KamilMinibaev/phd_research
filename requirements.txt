@@ -1,0 +1,7 @@
+# Python 3.11; versions used for the checked analysis
+numpy==1.26.4
+pandas==2.2.3
+scipy==1.15.2
+linearmodels==4.31
+matplotlib==3.10.8
+setuptools<81

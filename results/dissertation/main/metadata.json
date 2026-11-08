@@ -1,0 +1,40 @@
+{
+  "year_min": 1997,
+  "year_max": 2015,
+  "panel_rows": 3021,
+  "countries": 159,
+  "excluded_unknown_quota_status": [
+    "COD",
+    "ROU",
+    "TLS"
+  ],
+  "treatment_definition": "first.implement.flag == 1 in raw QAROT, earliest year by country",
+  "standardisation": "pooled country-year mean and sample standard deviation, 1997-2015",
+  "health_index": "z(Life_Expectancy) - z(Fertility)",
+  "education_index": "z(Female_Adult_Literacy)",
+  "composite_index": "row mean of available education and health indices",
+  "duplicate_input_keys": 0,
+  "spec": "main",
+  "cohort_min": 2002,
+  "cohort_max": 2010,
+  "window_pre": 5,
+  "window_post": 12,
+  "controls": [],
+  "fixed_effects": [
+    "country x cohort",
+    "year x cohort"
+  ],
+  "cluster": "original country",
+  "packages": {
+    "pandas": "2.2.3",
+    "numpy": "1.26.4",
+    "scipy": "1.15.2",
+    "linearmodels": "4.31",
+    "matplotlib": "3.10.8"
+  },
+  "inputs": {
+    "data/processed/country_panel.csv": "71d616e03b04c88ac39f507fd7c43325a694eb5097eed5e9f9767038e91418b4",
+    "data/raw/qarot.csv": "882b30f60d4770422bd778b39ebf2d0b5a309ba482a445d53ae1bbaec6c8517e",
+    "data/processed/qarot_minimal.csv": "e33b2b6db99e07e09da911b81180c68081f2e1dbdaf581dfa2bec743aab2a73b"
+  }
+}
